@@ -105,6 +105,12 @@
       background-color: var(--accent-color);
       color: var(--bg-color);
     }
+
+    /* CORREÇÃO: Garantir que o texto dos cards também mude conforme o tema */
+    .card {
+      background-color: var(--card-color);
+      color: var(--text-color);
+    }
   </style>
 </head>
 
@@ -151,7 +157,7 @@
       <h2>Projetos</h2>
 
       <!-- Projeto Gerador de Senha -->
-      <div class="card my-4 p-4 shadow-sm" style="background-color: var(--card-color); border: none;">
+      <div class="card my-4 p-4 shadow-sm">
         <h3 style="color: var(--accent-color);">Gerador de Senha Segura 🚀</h3>
         <p>
           Desenvolvi um Gerador de Senhas utilizando <strong>Flask</strong> e <strong>Python</strong>,
